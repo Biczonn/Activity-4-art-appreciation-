@@ -1,0 +1,90 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #111;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4CAF50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+
+.navbar h1 {
+  font-size: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  background-color: #ddd;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+/* Projects Section */
+.projects {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project {
+  background-color: #ddd;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background-color: #ccc;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
